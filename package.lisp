@@ -2,6 +2,12 @@
   (:use #:cl
         #:cffi)
   (:export
-           ;; Functions
-           #:gl-clear-color
-           #:gl-clear))
+   ;; Constansts
+   #:+gl-color-buffer-bit+
+   #:+gl-depth-buffer-bit+
+   ;; Types
+   #:gl-uint
+   ;; Functions
+   #:gl-clear-color
+   #:gl-clear
+   #:gl-gen-buffers))

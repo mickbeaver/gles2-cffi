@@ -522,7 +522,7 @@
 
 (defcfun ("glGenBuffers" gl-gen-buffers) :void 
   (n gl-sizei)
-  (buffers gl-uint))
+  (buffers :pointer))
 
 (defcfun ("glGenerateMipmap" gl-generate-mipmap) :void 
   (target gl-enum))
